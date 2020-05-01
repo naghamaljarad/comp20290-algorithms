@@ -45,12 +45,19 @@ public class ThreeSumA {
      *
      * @param args the command-line arguments
      */
-    public static void main(String[] args)  { 
+    public static void main(String[] args)  {
         In in = new In(args[0]);
         int[] a = in.readAllInts();
         int count = count(a);
-              
-    } 
+
+
+        final long startTime = System.currentTimeMillis();
+        count(a);
+        final long finishedTime = System.currentTimeMillis();
+        final long elapsedTime = finishedTime - startTime;
+        System.out.println("Time Taken, ThreeSumA " + elapsedTime);
+
+    }
 } 
 
 

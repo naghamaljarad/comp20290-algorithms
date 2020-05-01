@@ -31,7 +31,7 @@ public class ThreeSumB {
         return false;
     }
 
-  
+
     /**
      * Returns the number of triples (i, j, k) with {@code i < j < k}
      * such that {@code a[i] + a[j] + a[k] == 0}.
@@ -61,11 +61,16 @@ public class ThreeSumB {
      *
      * @param args the command-line arguments
      */
-    public static void main(String[] args)  { 
+    public static void main(String[] args)  {
         In in = new In(args[0]);
         int[] a = in.readAllInts();
         int count = count(a);
-        System.out.println("count =" + count);
-    } 
+
+        final long startTime = System.currentTimeMillis();
+        count(a);
+        final long finishedTime = System.currentTimeMillis();
+        final long elapsedTime = finishedTime - startTime;
+        System.out.println("Time Taken, ThreeSumB " + elapsedTime);
+    }
 } 
 

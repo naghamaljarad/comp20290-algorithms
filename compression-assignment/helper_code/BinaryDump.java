@@ -1,3 +1,4 @@
+package helper_code;
 /******************************************************************************
  *  Compilation:  javac BinaryDump.java
  *  Execution:    java BinaryDump n < file

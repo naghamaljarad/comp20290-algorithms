@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/compression-assignment" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab1-algorithm-analysis" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab2-complexity" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab3-recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab4-elementary-sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab6-advancted-sortingII" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab7-substring-search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab8-tries" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lab9-data-compression" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

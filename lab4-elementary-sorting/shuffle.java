@@ -1,4 +1,4 @@
-public static void shuffle(Object[] a) {
+/*public static void shuffle(Object[] a) {
         int n = a.length;
         for (int i = 0; i < n; i++) {
             // choose index uniformly in [0, i]
@@ -7,4 +7,4 @@ public static void shuffle(Object[] a) {
             a[r] = a[i];
             a[i] = swap;
         }
-    }
+    } */

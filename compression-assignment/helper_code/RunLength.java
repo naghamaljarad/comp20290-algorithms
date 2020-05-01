@@ -19,7 +19,7 @@
  *
  ******************************************************************************/
 
-
+package helper_code;
 /**
  *  The {@code RunLength} class provides static methods for compressing
  *  and expanding a binary input using run-length coding with 8-bit

@@ -8,13 +8,19 @@
  ******************************************************************************/
 
 
+import helper_code.MinPQ;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 /**
  *  Add in your information about each method etc. here
  *
  *
  *  @author Your name
  */
-public class Huffman {
+class Huffman {
 
     // alphabet size of extended ASCII
     private static final int R = 256;
@@ -54,6 +60,18 @@ public class Huffman {
      */
     public static void compress() {
         // read the input
+        try {
+            File myObj = new File("hello people hell");
+            Scanner myReader = new Scanner(myObj);
+            while (myReader.hasNextLine()) {
+                String data = myReader.nextLine();
+                System.out.println(data);
+            }
+            myReader.close();
+        } catch (FileNotFoundException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
 
 
         // tabulate frequency counts
@@ -95,7 +113,7 @@ public class Huffman {
     private static Node buildTrie(int[] freq) {
 
         // initialze priority queue with singleton trees
-        MinPQ<Node> pq = new MinPQ<Node>();
+        helper_code.MinPQ<Node> pq = new MinPQ<Node>();
         for (char i = 0; i < R; i++)
             if (freq[i] > 0)
                 pq.insert(new Node(i, freq[i], null, null));
@@ -159,7 +177,8 @@ public class Huffman {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-
+        Huffman hell = new Huffman();
+        hell.compress();
     }
 
 }

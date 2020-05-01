@@ -1,6 +1,4 @@
-import Trie.TrieNode;
-
-public class Trie{
+public class Trie_starter{
 
 // Alphabet size (# of symbols) we pick 26 for English alphabet
 static final int ALPHABET_SIZE = 26; 
@@ -26,14 +24,13 @@ static TrieNode root;
 //  marks leaf node
 static void insert(String key){ 
 
-	
+
 
 } 
 
 // Returns true if key presents in trie, else false 
 static boolean search(String key) { 
-
-	
+    return true;
 } 
 
 
